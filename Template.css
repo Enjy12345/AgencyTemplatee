@@ -1,0 +1,61 @@
+/* body{
+    position: relative;
+    display: block;
+} */
+#mainnav::before{
+   background-color: aqua;
+
+}
+/* .fixed-top{
+    z-index: 999999;
+} */
+.navbar-brand img{
+    width: 200px;
+    vertical-align: middle;
+    height: 50px;
+}
+.headcontent{
+   position: relative;
+   text-align: center;
+    background-image: url(./Images/header-bg.jpg);
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position:  center;
+    background-size: cover;
+    
+}
+ .info{
+    color: white !important;
+    font-weight: 700;
+    font-size: 20px;
+  
+ }
+ #services .container {
+    padding-top: 70px;
+ }
+ .card{
+    border: 0;;
+ }
+.card-body svg {
+  
+    background-color:  #ffcc00;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+
+    
+}
+
+.card-body i {
+    background-color:  #ffcc00;
+   font-size: 200px;
+   color: white;
+
+border-radius: 20%;
+}
+#portofilo{
+padding-top: 80px;
+padding-bottom: 70px;
+}
