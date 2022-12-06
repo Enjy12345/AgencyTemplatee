@@ -1,42 +1,61 @@
 /* body{
     position: relative;
     display: block;
+    overflow: hidden;
 } */
 #mainnav::before{
    background-color: aqua;
 
 }
-/* .fixed-top{
-    z-index: 999999;
-} */
+
+.nav-item a:hover {
+    color: #ffcc00 !important;
+}
+.nav-item {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .navbar-brand img{
     width: 200px;
     vertical-align: middle;
     height: 50px;
 }
+#mainnav button  {
+    color: lightgray;
+}
+#mainnav span.navbar-toggler-icon {
+border-color:aqua ;
+}
 .headcontent{
-   position: relative;
+ 
    text-align: center;
     background-image: url(./Images/header-bg.jpg);
     padding-top: 18rem;
     padding-bottom: 18rem;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position:  center;
-    background-size: cover;
+    /* background-position:  center;
+    background-size: cover; */
     
+}
+.headcontent h3  {
+font-family: sans-serif;
+font-style: italic;
+}
+.headcontent h1 {
+    font-size: 3.25em;
 }
  .info{
     color: white !important;
     font-weight: 700;
     font-size: 20px;
+    
   
  }
  #services .container {
     padding-top: 70px;
  }
  .card{
-    border: 0;;
+    border: 0;
  }
 .card-body svg {
   
@@ -48,14 +67,102 @@
     
 }
 
-.card-body i {
-    background-color:  #ffcc00;
-   font-size: 200px;
-   color: white;
 
-border-radius: 20%;
+.card-body i {
+
+font-size:80px;
+   color: white;
+ width: 120px;
+ height: 100px;
+padding-top: 10px;
+background-color: #ffcc00;
+border-radius: 50%;
 }
+
 #portofilo{
 padding-top: 80px;
 padding-bottom: 70px;
+}
+
+#AboutSection .middleimage img {
+    border: 8px solid;
+    border-color:lightgray ;
+    width: 170px;
+    height: 170px;
+}
+#AboutSection .middleimage{
+    /* padding-bottom: 100px; */
+}
+#AboutSection .leftsection {
+    text-justify: auto;
+   text-align: right;
+}
+#AboutSection .verticalline{
+    height: 300px;
+}
+#AboutSection .rightsection {
+text-justify: auto;
+   text-align: left;
+}
+#AboutSection .imagecircle {
+    background-color: #ffcc00;
+    border: 8px solid;
+    border-color:lightgray ;
+    color: white;
+    width: 170px;
+    height: 170px;
+}
+#TeamSection img {
+    border: 8px solid;
+    border-color:lightgray ;
+    width: 200px;
+    height: 200px;
+}
+#TeamSection i {
+    background-color: black;
+     color: white;
+     font-size: 20px;
+     width:30px;
+     height: 30px;
+     border-radius: 50%;
+     padding-top: 5px;
+}
+#TeamSection .lastparag{
+    width:70rem;
+}
+#CompanySection img{
+    width: 150px;
+    height: 140px;
+}
+#ContactUsSection  {
+    background-color: black;
+    background-image: url("./Images/map-image.png");
+width: 100%;
+    background-repeat: no-repeat;
+}
+#ContactUsSection  input ,#message  {
+   
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+#ContactUsSection  #submitButton{
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+
+}
+
+vr{ 
+    border:         none;
+    border-left:    3px solid hsla(200, 10%, 70%,100);
+    height:         20vh;
+    width:          4px; 
+    align-self: center;    
 }

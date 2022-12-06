@@ -8,44 +8,53 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="Template.css">
 </head>
 <body>
    <!-- Nav bar -->
-        <nav class="navbar navbar-expand-lg bg-dark fixed-top  " id="mainnav">
-          <div class="container">
+        <nav class="navbar  navbar-expand-lg bg-dark fixed-top" id="mainnav">
+          <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="Images/navbar-logo.svg" alt="Bootstrap" >
-
+                <img src="Images/navbar-logo.svg"  class="img-fluid" alt="Bootstrap" >
               </a>
-              <div class=" ms-auto  py-4 py-lg-0"  id="navbarNav">
-                <ul class="navbar-nav justify-content-end ">
-                  <li class="nav-item ">
-                    <a class="nav-link text-uppercase text-white fw-lighter" aria-current="page" href="#">Services</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">Menu
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end px-5" id="collapsibleNavbar">
+                
+                <ul class="navbar-nav " >
+                
+                  <li class="nav-item  px-1">
+                    <a class="nav-link text-uppercase text-white fw-lighter " aria-current="page" href="#">Services</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item  px-1">
                     <a class="nav-link text-uppercase text-white fw-lighter" href="#">portofolio</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item  px-1">
                     <a class="nav-link text-uppercase text-white fw-lighter" href="#">about</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item  px-1">
                     <a class="nav-link text-uppercase text-white fw-lighter ">Team</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item  px-1">
                     <a class="nav-link text-uppercase text-white fw-lighter">Contact</a>
                   </li>
+                 
                 </ul>
+            
               </div>
+             
+             
+
             </div>
           </nav>
           <!-- End of Nav bar -->
           <header class="headcontent ">
           <div class="container">
-            <h3 class="text-white text-center"> Welcome To Our Studio!</h3>
-            <h1 class="text-white text-uppercase pt-2 text-center fw-7">it's nice to meet you</h1>
-            <a class="btn btn-warning btn-xl text-uppercase px-5 py-3 info" href="#services"> Tell Me More</a>
+            <h3 class="text-white text-center pb-4"> Welcome To Our Studio!</h3>
+            <h1 class="text-white text-uppercase text-center  pb-5">it's nice to meet you</h1>
+            <a class="btn btn-warning btn-xl text-uppercase px-5 py-3  info" href="#services"> Tell Me More</a>
           </div>
           </header>
           <!-- end of header -->
@@ -54,100 +63,298 @@
             <div class="container ">
               <h2 class=" fw-bold text-uppercase text-center">Services</h2>
               <h4 class="text-center fw-lighter fs-6 text-muted">Lorem ipsum dolor sit amet.</h4>
-            </div>
-        <div class="row text-center">
-        <div class="card col-xl-4">
-         
-          <div class="card-body ">
             
-            <i class="bi bi-cart bi-10x"></i>
-            <h5 class="card-title text-center fw-bold ">E-commerce</h5>
-            <p class="card-text  text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo laudantium. Officiis doloribus temporibus alias ratione ab aliquam atque, eius eos incidunt perspiciatis quos sint error vitae inventore aut nisi..</p>
+        <div class="row text-center">
+        <div class="card col-lg-4 col-md-4">
+         
+          <div class="card-body">
+            <span class="icon-stack">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </span>
+            <h5 class="card-title text-center fw-bold pt-3">E-commerce</h5>
+            <p class="card-text  text-justify text-muted pt-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo laudantium. Officiis doloribus temporibus alias ratione ab aliquam atque, eius eos incidunt.</p>
+
           </div>
           </div>
-          <div class="card col-xl-4">
+          <div class="card col-lg-4 col-md-4">
            
             <div class="card-body">
-              <i class="bi bi-laptop"></i>
-              <h5 class="card-title text-center fw-bold ">E-commerce</h5>
-              
-              <p class="card-text  text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo laudantium. Officiis doloribus temporibus alias ratione ab aliquam atque, eius eos incidunt perspiciatis quos sint error vitae inventore aut nisi..</p>
+              <i class="fa fa-laptop" aria-hidden="true"></i>
+              <h5 class="card-title text-center fw-bold  pt-3 ">Responsive Design</h5>
+              <p class="card-text  text-justify text-muted pt-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo laudantium. Officiis doloribus temporibus alias ratione ab aliquam atque, eius eos incidunt.</p>
+       
             </div>
             </div>
-            <div class="card col-xl-4">
+            <div class="card col-lg-4 col-md-4">
             
               <div class="card-body">
-                <i class="bi bi-lock"></i>
+                <i class="fa fa-lock" aria-hidden="true"></i>
 
-                <h5 class="card-title text-center fw-bold">E-commerce</h5>
-                <p class="card-text  text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo laudantium. Officiis doloribus temporibus alias ratione ab aliquam atque, eius eos incidunt perspiciatis quos sint error vitae inventore aut nisi..</p>
+                <h5 class="card-title text-center fw-bold  pt-3">Web Security</h5>
+                <p class="card-text  text-justify text-muted pt-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo laudantium. Officiis doloribus temporibus alias ratione ab aliquam atque, eius eos incidunt.</p>
               </div>
               </div>
             
         </div>
+        </div>
+        
           </section>
          <!-- Portifolio -->
-         <div class="section bg-light">
-          <div class="container" id="portofilo" >
+        <section class="bg-light pb-5">
+          <div class="container pb-5" id="portofilo" >
             <h2 class=" fw-bold text-uppercase text-center py-1">Portifolio</h2>
             <h4 class="text-center fw-lighter fs-6 text-muted py-1">Lorem ipsum dolor sit amet.</h4>
-          </div>
+        
           <div class="row ">
-            <div class="card col-xl-4">
+            <div class="card col-lg-4 col-md-6">
      
-            <img src="Images/1.jpg" class="img-fluid" alt="...">
+           
             <div class="card-body text-center">
-              <h5 class="card-title  fw-bold">Threads</h5>
+              <img src="Images/1.jpg" class="img-fluid" alt="...">
+              <h5 class="card-title  fw-bold py-3">Threads</h5>
               <p class="card-text text-muted">illustration</p>
              
              </div>
             </div>
-            <div class="card col-xl-4">
+            <div class="card col-lg-4 col-md-6">
      
-              <img src="Images/2.jpg" class="img-fluid" alt="...">
+       
               <div class="card-body text-center">
-                <h5 class="card-title  fw-bold">Explore</h5>
+                <img src="Images/2.jpg" class="img-fluid" alt="...">
+                <h5 class="card-title  fw-bold py-3">Explore</h5>
                 <p class="card-text text-muted">Graphic Design</p>
                
                </div>
               </div>
-              <div class="card col-xl-4">
+              <div class="card col-lg-4 col-md-6">
      
-                <img src="Images/3.jpg" class="img-fluid" alt="...">
                 <div class="card-body text-center">
-                  <h5 class="card-title  fw-bold">Finish</h5>
+                  <img src="Images/3.jpg" class="img-fluid" alt="...">
+                  <h5 class="card-title  fw-bold py-3">Finish</h5>
                   <p class="card-text text-muted">Identify</p>
                  </div>
                 </div>
-                <div class="card col-xl-4">
+                <div class="card col-lg-4 col-md-6">
      
-                  <img src="Images/4.jpg" class="img-fluid" alt="...">
+               
                   <div class="card-body text-center">
-                    <h5 class="card-title  fw-bold">Lines</h5>
+                    <img src="Images/4.jpg" class="img-fluid" alt="...">
+                    <h5 class="card-title  fw-bold py-3">Lines</h5>
                     <p class="card-text text-muted">Branding</p>
                    </div>
                   </div>
-                  <div class="card col-xl-4">
+                  <div class="card col-lg-4 col-md-6">
      
-                    <img src="Images/5.jpg" class="img-fluid" alt="...">
                     <div class="card-body text-center">
-                      <h5 class="card-title  fw-bold">Southwest</h5>
+                      <img src="Images/5.jpg" class="img-fluid" alt="...">
+
+                      <h5 class="card-title  fw-bold py-3">Southwest</h5>
                       <p class="card-text text-muted">Website Design</p>
                      </div>
                     </div>
-                    <div class="card col-xl-4">
-     
-            <img src="Images/6.jpg" class="img-fluid" alt="...">
+                    <div class="card col-lg-4 col-md-6">
             <div class="card-body text-center">
-              <h5 class="card-title  fw-bold">Window</h5>
+              <img src="Images/6.jpg" class="img-fluid" alt="...">
+              <h5 class="card-title  fw-bold py-3">Window</h5>
               <p class="card-text text-muted">Photography</p>
              </div>
             </div>
           </div>
          </div>
+        </section>
+        
          <!-- end of portoflio -->
         <section>
-
+          <div class="container pb-5" id="About" >
+            <h2 class=" fw-bold text-uppercase text-center pt-4">About</h2>
+            <h4 class="text-center fw-lighter fs-6 text-muted py-1">Lorem ipsum dolor sit amet.</h4>
+            </div>
           </section>
+          <!-- About Section -->
+          <section >
+            <div class="container" id="AboutSection">
+              <div class="row">
+             
+                <div class="col-lg-5 col-md-4 col-sm-10 text-end">
+                  <div class="leftsection">
+                    <h4 class="fw-bold">2009-2011</h4>
+                    <h4 class="fw-bold">Our Humble Beginnings</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, 
+                      recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                 
+                </div>
+                <div class="col-lg-7 col-md-8 col-sm-2">
+                  <div class="middleimage text-start text-justify ">
+                    <img src="./Images/tm1.jpg"class="img-fluid rounded-circle " alt="">   
+                    <!-- <div class="d-flex   " style="height: 200px;">
+                      <div class="vr"></div>
+                    </div> -->
+                    </div>
+                   
+                    </div>
+                  
+                  </div>
+              
+                  <!-- end of first row  -->
+                
+                  <div class="row">
+                
+                 
+                    <div class="col-lg-7  col-md-8 col-sm-2">
+                      <div class="middleimage text-end px-lg-1 px-md-5">
+                        <img src="./Images/tm2.jpg"class="img-fluid rounded-circle " alt="">   
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-4 col-sm-10">
+                      <div class="rightsection">
+                        <h4 class="fw-bold">March 2011</h4>
+                        <h4 class="fw-bold">An Agency is Born</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                          Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, 
+                          recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                      </div>
+                    </div>
+               
+                </div>
+              
+                <!-- end of second row -->
+                <div class="row">
+             
+                  <div class="col-lg-5 col-md-4">
+                    <div class="leftsection text-end">
+                      <h4 class="fw-bold">December 2015</h4>
+                      <h4 class="fw-bold">Transition to Full Service</h4>
+                      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, 
+                        recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    </div>
+                   
+                  </div>
+                  <div class="col-lg-7 col-md-8">
+                    <div class="middleimage text-start ">
+                      <img src="./Images/tm3.jpg"class="img-fluid rounded-circle " alt="">   
+                      </div>
+                      </div>
+                    </div>
+                   
+                    <!-- end of third row  -->
+                    <div class="row">
+                  
+                   
+                      <div class="col-lg-7 col-md-8 ">
+                        <div class="middleimage text-end  px-lg-2 px-md-5">
+                          <img src="./Images/tm4.jpg"class="img-fluid rounded-circle " alt="">   
+                          </div>
+                      </div>
+                      <div class="col-lg-5 col-md-4">
+                        <div class="rightsection">
+                          <h4 class="fw-bold">July 2020 </h4>
+                          <h4 class="fw-bold">Phase Two Expansion</h4>
+                          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, 
+                            recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                      </div>
+                  </div>
+             <!-- end of fourth row -->
+            <!-- <div class="row align-items-center">
+              <div class="col-lg-8 align-items-center">
+              <div class="imagecircle rounded-circle text-center pt-4 ">
+                <h4>
+                  Be Part
+                </h4>
+                <h4> of Our</h4>
+                <h4> Story</h4>
+                </div>
+              </div>
+            </div> -->
+            </div>
+          </section>
+          <!-- End of about section -->
+
+          <section id = "TeamSection" class="bg-light">
+            <div class="container">
+              <h2 class=" fw-bold text-uppercase text-center pt-4">our amazing team</h2>
+              <h4 class="text-center fw-lighter fs-6 text-muted py-1">Lorem ipsum dolor sit amet.</h4>
+              <div class="row text-center pt-5">
+                <div class="col-xl-4 py-2">
+                  <img class="mx-auto rounded-circle" src="Images/Team1.jpg" alt="...">
+                  <h4 class="pt-2">Parveen Anand</h4>
+                  <p class="text-muted ">Lead Designer</p>
+                  <i class="fa fa-facebook m-1  " aria-hidden="true"></i>
+                  <i class="fa fa-linkedin m-1 " aria-hidden="true"></i>
+                  <i class="fa fa-twitter m-1 " aria-hidden="true"></i>
+                  
+            </div>
+            <div class="col-xl-4  py-2">
+              <img class="mx-auto rounded-circle" src="Images/Team2.jpg" alt="...">
+              <h4 class="pt-2">Diana Petersen</h4>
+              <p class="text-muted">Lead Marketer</p>
+              <i class="fa fa-facebook m-1  " aria-hidden="true"></i>
+              <i class="fa fa-linkedin m-1 " aria-hidden="true"></i>
+              <i class="fa fa-twitter m-1 " aria-hidden="true"></i>
+        </div>
+        <div class="col-xl-4  py-2">
+          <img class="mx-auto rounded-circle" src="Images/Team3.jpg" alt="...">
+          <h4 class="pt-2">Larry Parker </h4>
+          <p class="text-muted">Lead Developer</p>
+          <i class="fa fa-facebook m-1  " aria-hidden="true"></i>
+          <i class="fa fa-linkedin m-1 " aria-hidden="true"></i>
+          <i class="fa fa-twitter m-1 " aria-hidden="true"></i>
+    </div>
+    <div class="row">
+      <div class="col-8 mx-auto">
+    <p class="text-muted  text-center py-5">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt commodi rerum, hic nobis sunt itaque, rem ducimus dolores cupiditate facere. 
+    </p>
+  </div>
+  </div>
+          </section>
+          <!-- End of Team section -->
+          <section id="CompanySection">
+            <div class="container">
+          <div class="row ">
+            <div class="col-3 text-center">
+              <img src="./Images/microsoft.svg" class="img-fluid my-3 mx-auto" alt="">
+            </div>
+            <div class="col-3 text-center">
+         
+              <img src="./Images/google.svg" class="img-fluid my-3 " alt="">
+            </div>
+            <div class="col-3 text-center">
+              <img src="./Images/facebook.svg" class="img-fluid my-3" alt="">
+            </div>
+            <div class="col-3 text-center">
+              <img src="./Images/ibm.svg" class="img-fluid my-3" alt="">
+            </div>
+          </div>
+          </div>
+          </section>
+          <!-- End of company section -->
+          <section id="ContactUsSection">
+            <div class="container">
+              <h2 class=" fw-bold text-uppercase text-center pt-4 text-white">contact us</h2>
+              <h4 class="text-center fw-lighter fs-6 text-muted py-1">Lorem ipsum dolor sit amet.</h4>
+           
+            <div class="row " >
+              <div class="col-md-6 col-sm-12 vstack  gap-3 " id="inputvalues">
+                <input type="text" placeholder=" Your Name *" class="py-4 ">
+                <input type="text" placeholder=" Your Email *"class="py-4 ">
+                <input type="text" placeholder=" Your Phone *" class="py-4">
+              </div>
+              <div class="col-md-6  col-sm-12 ">
+                <textarea class=" h-100 w-100 mt-4 mt-md-0 " id="message" placeholder="Your Message *" ></textarea>
+              </div>
+              </div>
+              <div class="text-center py-5 ">
+                <button class="btn btn-xl text-uppercase disabled py-3 px-5" id="submitButton" type="submit">Send Message
+                
+              </button>
+              </div>
+            </div>
+          </section>
+
 </body>
 </html>
